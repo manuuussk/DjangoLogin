@@ -6,3 +6,6 @@ def index(request):
 
 def index(request):
     return render(request,'djangoApp/index.html')
+
+def dashboard(request):
+    return render(request,'djangoApp/dashboard.html')

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html> 
 <html lang="pt-br">
 <head>
@@ -14,8 +15,8 @@
 
 <h2>Login</h2>
 
-<form>
-    <label>Usuário ou Email:</label><br>
+<form method="get" action="{% url 'dashboard' %}">
+    <label>Usuário:</label><br>
     <input type="text" name="usuario"><br><br>
 
     <label>Senha:</label><br>

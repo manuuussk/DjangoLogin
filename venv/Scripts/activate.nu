@@ -47,7 +47,7 @@ export-env {
         }
     }
 
-    let virtual_env = r#'C:\Users\cesario\Documents\DjangoLogin\venv'#
+    let virtual_env = r#'C:\Users\cesario\Desktop\manu\DjangoLogin\venv'#
     let bin = r#'Scripts'#
     let path_name = if (has-env 'Path') { 'Path' } else { 'PATH' }
     let venv_path = ([$virtual_env $bin] | path join)
